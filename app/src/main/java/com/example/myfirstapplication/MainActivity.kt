@@ -1,9 +1,11 @@
 package com.example.myfirstapplication
+
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
     lateinit var button1 : Button
         super.onCreate(savedInstanceState)
@@ -11,10 +13,8 @@ class MainActivity : AppCompatActivity() {
         button1=findViewById<Button>(R.id.button1)
 
         button1.setOnClickListener{
-            val show = Toast.makeText(
-                applicationContext,
-                Toast.LENGTH_SHORT
-            ).show()
+            Toast.makeText(applicationContext, "버튼을 눌렸어욯ㅎㅎㅎ",
+                Toast.LENGTH_SHORT).show()
         }
     }
 }
