@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         button1=findViewById<Button>(R.id.button1)
 
         button1.setOnClickListener{
-            Toast.makeText(applicationContext, "버튼을 눌렸어욯ㅎㅎㅎ",
+            Toast.makeText(applicationContext, "버튼을 눌렸어욯ㅎGㅎㅎ",
                 Toast.LENGTH_SHORT).show()
         }
     }
